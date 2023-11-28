@@ -1,8 +1,9 @@
 <h1>Create Avatar</h1>
 
 <h3>Add file to /src:</h3>
-- AvatarImg
-- App.css (optional)
+
+    - AvatarImg
+    - App.css (optional)
 
 1. Create constants/avatarFeatures with 5 arrays, one for each feature. Each array includes 5 objects with names and src: require('../AvatarImg/{imagename}').default.
     - browImages (5x Brows - (name + src))
