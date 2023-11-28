@@ -53,3 +53,5 @@ Button **({ onClick, CTA })**
 Footer **({ avatarName })**
  - Footertext "Copywrite © 2023"
  - Render Avatarname when added input in header
+<img width="995" alt="Skärmavbild 2023-11-28 kl  10 18 05" src="https://github.com/linjoh92/Avatar-test/assets/116895401/4541ddb1-de16-44b1-a214-3b836128e3f2">
+<img width="986" alt="Skärmavbild 2023-11-28 kl  10 18 22" src="https://github.com/linjoh92/Avatar-test/assets/116895401/815f62ab-fb4c-4fad-9da0-52b8e6719650">
