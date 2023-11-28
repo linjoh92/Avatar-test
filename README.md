@@ -1,6 +1,6 @@
-**Create Avatar**
+<h1>Create Avatar</h1>
 
-Add file to /src:
+<h3>Add file to /src:</h3>
 - AvatarImg
 - App.css (optional)
 
@@ -11,7 +11,7 @@ Add file to /src:
     - noseImages (5x Nose - (name + src))
     - mouthImages (5x Mouth - (name + src))
 
-**_Components_**
+<h3>Components</h3>
 
 1. Header
 2. AvatarCretor
@@ -19,23 +19,25 @@ Add file to /src:
 4. Button
 5. Footer
 
-**_Test_**
 
-App.js
+
+<h3>Test</h3>
+
+**App.js**
 - Render components: Header, CreateAvatar, Button and Footer
 - Resetbutton - all selected Avatarfeatures, AvatarName and Input resets
 
-Header **_({ title, avatarNameInput, handleInputChange })_**
+**Header **_({ title, avatarNameInput, handleInputChange })_****
 - Headertitle
 - Input for AvatarName 
 - User input AvatarName shows in AvatarCreator and Footer
 
-AvatarCreator **({ avatarName })**
+**AvatarCreator _({ avatarName })_**
 - Rendering the Avatar Face: Renders the avatar's face based on the user's selected features for hair, eyes, brows, nose, and mouth.
 - Feature Selection: Allows users to choose from various options for Hair, Eyes, Brows, Nose, and Mouth to customize their avatar.
 - Managing Selected Features: Tracks and maintains the state of the selected features (e.g., `SelectedHair`, `SelectedEyes`) which dynamically appear on the Avatar's face.
 
-FeatureSection **({ featureType, images, selectedFeature, handleFeatureClick, altTextModifier = 1, width = 100 , "data-testid": testId })** 
+**FeatureSection _({ featureType, images, selectedFeature, handleFeatureClick, "data-testid": testId })_**
 - Layout for display the five AvatarFeatcher categorys - FeatureType and data-testid 
 - Map the imges:
     * key
@@ -45,12 +47,12 @@ FeatureSection **({ featureType, images, selectedFeature, handleFeatureClick, al
     * width
     * onClick (handelFeatureClick(feature))
 
-Button **({ onClick, CTA })**
+**Button _({ onClick, CTA })_**
  - Button
  - Prop - CTA 
  - Prop - OnClick
 
-Footer **({ avatarName })**
+**Footer _({ avatarName })_**
  - Footertext "Copywrite © 2023"
  - Render Avatarname when added input in header
 <img width="995" alt="Skärmavbild 2023-11-28 kl  10 18 05" src="https://github.com/linjoh92/Avatar-test/assets/116895401/4541ddb1-de16-44b1-a214-3b836128e3f2">
